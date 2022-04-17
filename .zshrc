@@ -70,21 +70,21 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-  copydir
-  copyfile
-  sudo
-  aliases
+# plugins=(git
+#  zsh-autosuggestions
+#  zsh-syntax-highlighting
+#  copydir
+#  copyfile
+#  sudo
+#  aliases
 #  autojump
-  colorize
-  command-not-found
-  fasd
-  themes
-  alias-tips
+#  colorize
+#  command-not-found
+#  fasd
+#  themes
+#  alias-tips
 #  auto-color-ls
-  zsh-explain-shell)
+#  zsh-explain-shell)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -125,6 +125,6 @@ PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %/ %# '
 RPROMPT='%F{green}%D %*'
 
 ### Bashhub.com Installation
-if [ -f ~/.bashhub/bashhub.zsh ]; then
-    source ~/.bashhub/bashhub.zsh
-fi
+# if [ -f ~/.bashhub/bashhub.zsh ]; then
+#    source ~/.bashhub/bashhub.zsh
+# fi
