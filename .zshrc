@@ -80,11 +80,9 @@ HIST_STAMPS="mm/dd/yyyy"
 #  autojump
 #  colorize
 #  command-not-found
-#  fasd
 #  themes
 #  alias-tips
-#  auto-color-ls
-#  zsh-explain-shell)
+#  auto-color-ls)
 
 source $ZSH/oh-my-zsh.sh
 
