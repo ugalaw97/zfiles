@@ -73,12 +73,10 @@ HIST_STAMPS="mm/dd/yyyy"
 # plugins=(git
 #  sudo
 #  aliases
-#  autojump
 #  colorize
 #  themes
-#  auto-color-ls)
 #  zsh-autosuggestions
-#  zsh-syntax-highlighting
+#  zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
