@@ -71,18 +71,14 @@ HIST_STAMPS="mm/dd/yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git
-#  zsh-autosuggestions
-#  zsh-syntax-highlighting
-#  copydir
-#  copyfile
 #  sudo
 #  aliases
 #  autojump
 #  colorize
-#  command-not-found
 #  themes
-#  alias-tips
 #  auto-color-ls)
+#  zsh-autosuggestions
+#  zsh-syntax-highlighting
 
 source $ZSH/oh-my-zsh.sh
 
@@ -121,8 +117,5 @@ source $ZSH/oh-my-zsh.sh
 # command line custom
 PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %/ %# '
 RPROMPT='%F{green}%D %*'
-
-### Bashhub.com Installation
-# if [ -f ~/.bashhub/bashhub.zsh ]; then
 #    source ~/.bashhub/bashhub.zsh
 # fi
